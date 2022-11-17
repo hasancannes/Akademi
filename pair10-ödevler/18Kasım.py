@@ -19,5 +19,5 @@ for i in range(1,lessonCount+1):
     else:
         print("Geçersiz Not Değerleri Girdiniz")    
 
-print(f"Kaldiğiniz Ders/Dersler ve Bilgileri: {failedDict}")
-print(f"Gectiğiniz Ders/Dersler ve Bilgileri: {passedDict}")
+print(f"Toplamda {failed} Dersten Kaldiniz, Bilgileri: {failedDict}")
+print(f"Toplamda {success} Dersten Gectiniz, Bilgileri: {passedDict}")

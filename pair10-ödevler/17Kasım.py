@@ -28,10 +28,12 @@ else:
     print("Geçersiz Not Değerleri Girdiniz.")
 
 # Ödev2
+
 failed = 0
 success = 0
 lessonCount = int(input("Ders Sayinizi Giriniz: "))
-
+passedList = []
+failedList = []
 for i in range(1,lessonCount+1):
     midtermGrade = float(input(f"{i}. Dersinizin Midterm Notunuzu Giriniz: "))
     finalGrade = float(input(f"{i}. Dersinizin Final Notunuzu Giriniz: "))
@@ -39,10 +41,14 @@ for i in range(1,lessonCount+1):
     if meanGrade <=50:
         print(f"{i}. Dersi Geçemediniz ve Not Ortalamaniz {meanGrade}")
         failed +=1
+        failedList.append(i)
     elif 50<meanGrade<=100:
         print(f"{i}. Dersi Geçtiniz ve Not Ortalamaniz {meanGrade}")
         success +=1
+        passedList.append(i)
     else:
         print("Geçersiz Not Değerleri Girdiniz")    
-print(f"Toplamda {failed} dersten kaldiniz")
-print(f"Toplamda {success} dersten geçtiniz")
+print(f"{success} adet dersten gectiniz ve gectiğiniz dersleriniz: {passedList}")
+print(f"{failed} adet dersten kaldiniz ve kaldiğiniz dersleriniz: {failedList}")
+
+

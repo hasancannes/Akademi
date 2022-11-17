@@ -1,3 +1,4 @@
+# Ödev 1
 failed = 0
 success = 0
 lessonCount = int(input("Ders Sayinizi Giriniz: "))

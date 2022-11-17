@@ -21,5 +21,7 @@ elif 60<meanGrade<=70:
     print(f"Not ortalamaniz {meanGrade} ve Harf Notunuz: CC")
 elif 70<meanGrade<=80:
     print(f"Not ortalamaniz {meanGrade} ve Harf Notunuz: BB")
-else:
+elif 80<meanGrade<=100:
     print(f"Not ortalamaniz {meanGrade} ve Harf Notunuz: AA")
+else:
+    print("Geçersiz Not Değerleri Girdiniz.")

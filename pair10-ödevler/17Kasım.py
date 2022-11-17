@@ -9,6 +9,7 @@
 # 80-100 AA
 # Not ortalamasını ve not harfini kullanıcıya göster.
 
+# Ödev1
 midtermGrade = float(input("Midterm Notunuzu Giriniz: "))
 finalGrade = float(input("Final Notunuzu Giriniz: "))
 meanGrade = (0.40 * midtermGrade) + (0.60 * finalGrade)
@@ -25,3 +26,19 @@ elif 80<meanGrade<=100:
     print(f"Not ortalamaniz {meanGrade} ve Harf Notunuz: AA")
 else:
     print("Geçersiz Not Değerleri Girdiniz.")
+
+# Ödev2
+
+lessonCount = int(input("Ders Sayinizi Giriniz: "))
+
+for i in range(1,lessonCount+1):
+    midtermGrade = float(input(f"{i}. Dersinizin Midterm Notunuzu Giriniz: "))
+    finalGrade = float(input(f"{i}. Dersinizin Final Notunuzu Giriniz: "))
+    meanGrade = (0.40 * midtermGrade) + (0.60 * finalGrade)
+    if meanGrade <=50:
+        print(f"{i}. Dersi Geçemediniz ve Not Ortalamaniz {meanGrade}")
+    elif 50<meanGrade<=100:
+        print(f"{i}. Dersi Geçtiniz ve Not Ortalamaniz {meanGrade}")
+    else:
+        print("Geçersiz Not Değerleri Girdiniz")
+

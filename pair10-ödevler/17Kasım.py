@@ -28,7 +28,8 @@ else:
     print("Geçersiz Not Değerleri Girdiniz.")
 
 # Ödev2
-
+failed = 0
+success = 0
 lessonCount = int(input("Ders Sayinizi Giriniz: "))
 
 for i in range(1,lessonCount+1):
@@ -37,9 +38,11 @@ for i in range(1,lessonCount+1):
     meanGrade = (0.40 * midtermGrade) + (0.60 * finalGrade)
     if meanGrade <=50:
         print(f"{i}. Dersi Geçemediniz ve Not Ortalamaniz {meanGrade}")
+        failed +=1
     elif 50<meanGrade<=100:
         print(f"{i}. Dersi Geçtiniz ve Not Ortalamaniz {meanGrade}")
+        success +=1
     else:
-        print("Geçersiz Not Değerleri Girdiniz")
-    i =+1
-
+        print("Geçersiz Not Değerleri Girdiniz")    
+print(f"Toplamda {failed} dersten kaldiniz")
+print(f"Toplamda {success} dersten geçtiniz")

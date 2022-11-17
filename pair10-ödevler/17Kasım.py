@@ -41,4 +41,5 @@ for i in range(1,lessonCount+1):
         print(f"{i}. Dersi Geçtiniz ve Not Ortalamaniz {meanGrade}")
     else:
         print("Geçersiz Not Değerleri Girdiniz")
+    i =+1
 

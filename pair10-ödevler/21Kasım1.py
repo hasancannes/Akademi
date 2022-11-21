@@ -36,4 +36,4 @@
 # - Veri modelleme sürecinin teknik kısmı ile birlikte en önemli aşamalarından birisi veri modelini 
 # görselleştirmektir. Görselleştirme işlemi bir çok farklı method ile yapılabilir. Örnek olarak, ER diagramları 
 # sıklıkla kullanılan methodlardan birisidir. Sql üzerinde ER diagramları ile tablolar arasındaki ilişkileri 
-# belirtebilir ve görsel düzenlemelerimizi yapabiliriz. Aşağıdaki görsel ER diagrama örnektir.
+# belirtebilir ve görsel düzenlemelerimizi yapabiliriz. 

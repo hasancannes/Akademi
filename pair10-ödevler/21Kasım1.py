@@ -9,7 +9,8 @@
 ### 2- Primary Key, Foreign Key, Veri Modellemede ilişkiler(One to one, many to many etc)
 # - Veri modelleme işlemlerinde başlıca dikkat edilmesi gereken işlemler vardır. Bunlardan iki tanesinden bahsetmek 
 # gerekirse: - Relation (İlişki): Modellenecek veri tabanında birden çok tablo olduğu durumlarda, tablolar arası ilişkiler
-# kurarak, veri manipule etme işlemlerini gerçekleştirebiliriz. Veri farklı tablolara bölerek karmaşıklığı önlemiş ve düzeni sağlamış oluruz. Relation işlemleri kısıtlayıcılar ile gerçekleştirilir.
+# kurarak, veri manipule etme işlemlerini gerçekleştirebiliriz. Veri farklı tablolara bölerek karmaşıklığı önlemiş ve düzeni sağlamış oluruz. 
+# Relation işlemleri kısıtlayıcılar ile gerçekleştirilir.
 # - Constraint (Kısıtlayıcı): Veri modelleme işlemlerinde bir çok kısıtlayıcı bulunmaktadır. Temel olarak burada 
 # bahsedeceğimiz kısıtlayıcılar *primary key* ve *foreign key*.
 # - Primary key: Birincil anahtar olarak adlandırılan primary key'ler, tablodaki verilerin birbirinden ayrılmasını 

@@ -1,0 +1,17 @@
+##SELECT
+Verileri seçmek/sorgulamak için kullanılır.
+Tablodaki bütün kolonları seçmek için:
+    -SELECT * FROM table
+Tablodaki belirli kolonları seçmek için(Yazılan sıraya göre tablolar output olarak gösterilir):
+    -SELECT kolon1,kolon2,kolon3 FROM table
+##DISTINCT
+Distinct komutu ile "unique" sorgular gerçekleştirebiliriz. Yani tekrar eden değerler yerine her değerden bir tane 
+seçilir.
+    -SELECT DISTINCT kitapyazar from kitaplar
+    Bu sorgu ile, tablomuzda kaç tane "farklı/unique/eşsiz" yazar olduğunu bulabiliriz. Distinct komutu ile, 
+    tekrar eden değerlerden kurtulup, kaç "farklı" sınıfa sahip olduğumuza erişebiliriz.
+##TOP
+Top komutu ile sınırladığımız değer ile, istediğimiz sayıda veriye ulaşabiliriz.
+    -SELECT TOP 2 Adi_soyadi, Sehir FROM Personel 
+    Örneğin yukarıdaki komutta, personel tablosundan Adi_soyadi ve sehir bilgilerini getireceğimiz ilk "2" kişiyi 
+    sorgulamış oluruz.

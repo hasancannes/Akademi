@@ -30,7 +30,7 @@
 	update baskets set total_price = NULL where is_go_order = TRUE;
 	update baskets set product_id = NULL where is_go_order = TRUE;
 	update baskets set customer_id = NULL where is_go_order = TRUE;
-	delete from baskets;
+	delete from baskets
 	where total_price = null and product_id = null and customer_id = NULL;
 --5.2:
 	delete from baskets 

@@ -1,0 +1,23 @@
+Kabul Kriterleri:
+
+1- Excel programında, gruplama için makro kullanılarak otomatize bir sistem gerçekleştirilecek.
+
+2- Excelde kullanıcıya gösterilen ekranda, örneklem sayısının girileceği kutucuk ve grupla butonu olacak.
+
+3- Veriler, örneklem sayısına göre, parçalara ayrılıp farklı sayfalarda yazdırılacak. Örneğin, 
+örneklem:3 girildiğinde; ilk 3 veri ilk sayfaya, ikinci 3 veri ikinci sayfaya olacak şekilde devam ettirilecek.
+
+4- Gruplanan sayfa isimleri, grup1, grup2, grup3… olacak şekilde adlandırılacak.
+
+5- Elimizde olan verilerin bir sayfada toplu bir şekilde bulunması gerekmekte.
+
+6- Her sayfada, kolon isimleri şehir/minumum sıcaklık/maximum sıcaklık şeklinde yazılacak.
+
+7- Sıcaklık kolonlarının içinde, santigrad derece ibaresi bulunacak.
+
+8- Örneklem sayısı, eldeki veriler ile tam bölünmüyor ise, arta kalan kısım yeni bir sayfaya eklenecek.
+
+9- Hergün veriler yeni sayfalara eklenerek gruplanacak.
+
+10- Örneklem sayısının girildiği kutucuk boş bırakıldığında veya sayı harici değer girildiğinde,
+grupla butonu pasif halde kalacak(tıklanamayacak).
